@@ -8,7 +8,8 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primaryColor: Colors.blueAccent
+        primaryColor: Colors.blueAccent,
+        bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.transparent)
       ),
       home: HomePage(),
     ); 
